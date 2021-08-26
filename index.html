@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Play">
+  </head>
+  <body onload="initializeBoard()">
+    <h1>MasterMind</h1>
+    <section class="container">
+      <div id="left">
+        <button id="refresh" onclick="initializeBoard()">Refresh Board</button>
+        <div id="console">
+          <div class="clickable red pin" onclick="findAndFillEmptySlot('red')"></div>
+          <div class="clickable green pin" onclick="findAndFillEmptySlot('green')"></div>
+          <div class="clickable blue pin" onclick="findAndFillEmptySlot('blue')"></div>
+          <br>
+          <div class="clickable yellow pin" onclick="findAndFillEmptySlot('yellow')"></div>
+          <div class="clickable cyan pin" onclick="findAndFillEmptySlot('cyan')"></div>
+          <div class="clickable magenta pin" onclick="findAndFillEmptySlot('magenta')"></div>
+        </div>
+        <button id="submit" onclick="onSubmit()">Submit</button>
+      </div>
+      <div id="gameboard"></div>
+      <div id="panel"></div>
+    </section>
+  </body>
+</html>

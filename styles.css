@@ -1,0 +1,94 @@
+h1 {
+  text-align: center;
+}
+body {
+  font-family: Play, sans-serif;
+}
+.container {
+  display: grid;
+}
+.clickable {
+  cursor: pointer;
+}
+.pin {
+  border: solid 1px black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  display: inline-block;
+}
+.red {
+  background-color: #FF0000;
+}
+.green {
+  background-color: #00FF00;
+}
+.blue {
+  background-color: #0000FF;
+}
+.yellow {
+  background-color: #FFFF00;
+}
+.cyan {
+  background-color: #00FFFF;
+}
+.magenta {
+  background-color: #FF00FF;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #FFFFFF;
+}
+.grey {
+  background-color: grey;
+}
+.row {
+  width: 350px;
+  height: 75px;
+  border-bottom: solid 2px black;
+  padding-left: 50px;
+}
+#gameboard {
+  width: 400px;
+  height: 691px;
+  border: solid 2px black;
+  margin: auto;
+  grid-column: 2;
+}
+#left {
+  grid-column: 1;
+  margin: auto;
+  margin-right: 0px;
+  margin-left: 175px;
+}
+#console {
+  width: 225px;
+  height: 150px;
+  border: solid 2px lightgrey;
+  background-color: silver;
+}
+#panel {
+  width: 400px;
+  height: 691px;
+  border: solid 2px black;
+  margin: auto;
+  grid-column: 3;
+  background-color: silver;
+}
+#submit {
+  margin: 20px 0px 0px 40px;
+  font-family: Play, sans-serif;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+#refresh {
+  margin: 0px 0px 50px 40px;
+  font-family: Play, sans-serif;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
